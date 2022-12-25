@@ -3,11 +3,112 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>3D Lander</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+<!-- NavBar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">
+            <img src="logo.jpg" alt="Logo" width="40" height="24" class="d-inline-block align-text-top">
+            3D Lander
+          </a>
+        </div>
+      </nav>
+<!-- Home -->
+    <div class="container" style=" margin-top: 10px;">
+        <!-- Sider -->
+        <div id="carouselExampleIndicators"  class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" style="background-color: black;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" style="background-color: black;"data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button"style="background-color: black;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" >
+              <div class="carousel-item active" >
+                <img src="./assets/img_geral/3D2.png" class="d-block w-100" height="500" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" height="500" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" height="500" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" >Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" >Next</span>
+            </button>
+          </div>
+
+       
+
+        <!-- Produtos -->
+          <div class="row" style="margin-top: 30px;">
+
+            <div class="card" style="width: 18rem; ;margin: 20px;">
+                <img src="./assets/img_pr/ninja.jpg" style="margin: 5px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Busto Tartaruga Ninja</h5>
+                    <p class="card-text">"As tartarugas lutam com honra"</p>
+                    <p style="font-weight: bold">
+                        Material: PETG<br>
+                        Tempo: 12h
+                    </p>
+                    <a href="#" class="btn btn-primary">Fazer um orçamento </a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ;margin: 20px;">
+                <img src="./assets/img_pr/dente_sabre.jpg" style="margin: 5px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Crânio de Tigre Dentes de Sabre</h5>
+                    <p class="card-text">"O dente-de-sabre era como um urso, extremamente forte, mas não era um animal feito para correr, era um animal feito para lutar contra outros animais no chão”, explicou Colin Mc Henry.</p>
+                    <p style="font-weight: bold">
+                        Material: Pla<br>
+                        Tempo: 12h
+                    </p>
+                    <a href="#" class="btn btn-primary">Fazer um orçamento </a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ;margin: 20px;">
+                <img src="./assets/img_pr/Johnny Bravo.jpg" style="margin: 5px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Johnny Bravo fisiculturista</h5>
+                    <p class="card-text">"A cliente teve a ideia de juntar a cabeça do personagem em um corpo de fisiculturista e fazer disso uma estátua personalizada. Ficou incrível né?!</p>
+                    <p style="font-weight: bold">
+                        Material: Pla<br>
+                        Tempo: 12h
+                    </p>
+                    <a href="#" class="btn btn-primary">Fazer um orçamento </a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ;margin: 20px;">
+                <img src="./assets/img_pr/Deadpool.jpg" style="margin: 5px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Busto Deadpool </h5>
+                    <p class="card-text">"Você deve estar pensando: "Era pra ser um filme de super-herói. Mas o cara de vermelho enfiou o outro numa espada". Surpresa! Sou um super-herói diferente."</p>
+                    <p style="font-weight: bold">
+                        Material: Pla<br>
+                        Tempo: 12h
+                    </p>
+                    <a href="#" class="btn btn-primary">Fazer um orçamento </a>
+                </div>
+            </div>
+
+                
+            </div>
+
+    </div>
+
+    
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
