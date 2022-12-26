@@ -7,7 +7,8 @@
 ##### As tecnologias utilizadas no projeto foram, HTML, JavaScript, bootstrap para o css.
 
 ## Visualização:
-### https://lucas-p0ntes.github.io/3d/
+### https://lucas-p0ntes.github.io/Landing-page-3d-Lander/
+
 
 
 
